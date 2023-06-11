@@ -12,7 +12,7 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 
-dataset_df=pd.read_csv("/content/smoke_detection_iot.csv")
+dataset_df=pd.read_csv("smoke_detection_iot.csv")
 dataset_df.head()
 
 dataset_df.shape
